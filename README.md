@@ -1,63 +1,99 @@
 # 🚀 Monetrix - Landing Page Institucional
+![Autor](https://img.shields.io/badge/Autor-Pietro%20Costa%20Cardoso-blue?style=flat-square&logo=github)
+![Licença](https://img.shields.io/badge/Licença-MIT-yellow.svg?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Original%20Repo-green?style=flat-square)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Bootstrap 5.3.8](https://img.shields.io/badge/Bootstrap-5.3.8-purple?logo=bootstrap)
-![JavaScript ES6](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+> *Aviso:* Este é o repositório original do projeto Monetrix. Se você encontrar este código em outro perfil sem os devidos créditos, ele foi plagiado.
+---
 
-O **Monetrix** é um exemplo de excelência em Landing Page institucional. O projeto equilibra o uso de frameworks consolidados com soluções customizadas leves, resultando em um site rápido, acessível e preparado para escalar tanto em conteúdo quanto em público.
+<p align="center">
+  <a href="#-sobre-o-projeto">Português</a> • 
+  <a href="#-about-the-project">English</a>
+</p>
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🇧🇷 Sobre o Projeto
 
+O **Monetrix** é uma landing page de alta performance que equilibra o uso de frameworks consolidados com soluções customizadas leves. O resultado é um site rápido, acessível e preparado para escalar tanto em conteúdo quanto em público devido ao suporte nativo a múltiplos idiomas.
+
+### 🛠️ Tecnologias Utilizadas
 * **HTML5 & CSS3**: Estrutura semântica e estilização moderna.
-* **JavaScript (Vanilla)**: Lógica de tradução, manipulação de DOM e interatividade.
-* **Bootstrap 5.3.8**: Framework para grid responsivo e componentes de UI.
-* **Google Fonts (Poppins)**: Tipografia moderna com excelente legibilidade.
-* **FontAwesome**: Iconografia para dinamismo visual (benefícios e rodapé).
+* **JavaScript (Vanilla)**: Lógica de tradução (i18n), manipulação de DOM e controle de estado.
+* **Bootstrap 5.3.8**: Framework robusto para grid responsivo e componentes de UI.
+* **Google Fonts (Poppins)**: Tipografia moderna focada em legibilidade.
+* **FontAwesome**: Iconografia vetorial para dinamismo visual.
+
+### 🌟 Diferenciais Técnicos Detalhados
+
+1. **Internacionalização (i18n) Nativa**
+   * Implementação eficiente via JavaScript puro usando um objeto `translations`.
+   * **Troca Dinâmica**: Função `updateLanguage()` que altera textos instantaneamente sem recarregar a página.
+   * **Persistência**: Controle do estado `currentLang` que atualiza inclusive rótulos de botões.
+
+2. **Design Responsivo e Framework Moderno**
+   * **Grid System**: Uso estratégico de `col-md-6`, `col-md-4`, garantindo adaptação total (Mobile-First).
+   * **Navbar Inteligente**: Menu colapsável com lógica customizada para garantir o funcionamento do "hambúrguer" mesmo em falhas de dependências.
+
+3. **Estrutura Semântica e SEO**
+   * Uso correto de tags `<header>`, `<nav>`, `<section>` e `<footer>`.
+   * **Meta Tags**: Otimização via `viewport`, `author` e `description` para indexação no Google.
+   * **Acessibilidade**: Atributos `aria-label` e textos alternativos (`alt`) em imagens.
+
+4. **Qualidade do Código JavaScript**
+   * **Event Delegation**: Uso de `DOMContentLoaded` para garantir execução segura.
+   * **Código Limpo**: Mapeamento via `querySelectorAll('[data-i18n]')`, facilitando a manutenção futura.
+
+### 📈 Lógica de Negócios e Conversão
+* **Call to Action (CTA)**: Botões estratégicos como "Comece agora" e "Assine já".
+* **Prova Social**: Seção de estatísticas.
+* **Ancoragem de Preço**: Tabela com três níveis (Essencial, Premium, Gold), destacando a opção "Mais Popular".
 
 ---
 
-## 🌟 Diferenciais Técnicos Detalhados
+## 🇺🇸 About the Project
 
-### 1. Internacionalização (i18n) Nativa
-Implementação eficiente via **JavaScript puro**, sem dependências externas:
-* **Objeto de Traduções**: O `Script.js` mapeia chaves (ex: `nav_home`, `hero_title`) para múltiplos idiomas.
-* **Atualização Dinâmica**: A função `updateLanguage()` altera o texto instantaneamente sem recarregar a página.
-* **Performance**: Utiliza `querySelectorAll('[data-i18n]')` para percorrer elementos de forma otimizada.
-* **Persistência**: Mantém o controle do idioma atual (`currentLang`) e atualiza rótulos de botões em tempo real.
+**Monetrix** is a high-performance landing page that balances established frameworks with lightweight custom solutions. The result is a fast, accessible website ready to scale in both content and audience due to its native multi-language support.
 
-### 2. Arquitetura e Design Responsivo
-* **Grid System**: Uso de `col-md-6`, `col-md-4` para adaptação total em mobile, tablets e desktops.
-* **Mobile-First**: Navbar colapsável com lógica de fallback no JavaScript para garantir o funcionamento do menu "hambúrguer".
-* **UI/UX**: Hierarquia visual clara com classes `display-4` e `fw-bold`, além de feedback visual em botões (`btn-primary`, `shadow`).
+### 🛠️ Technologies Used
+* **HTML5 & CSS3**: Semantic structure and modern styling.
+* **JavaScript (Vanilla)**: Translation logic (i18n), DOM manipulation, and state control.
+* **Bootstrap 5.3.8**: Robust framework for responsive grid and UI components.
+* **Google Fonts (Poppins)**: Modern typography focused on readability.
+* **FontAwesome**: Vector iconography for visual dynamism.
 
-### 3. SEO, Acessibilidade e Qualidade de Código
-* **Semântica**: Uso rigoroso de `<header>`, `<nav>`, `<section>` e `<footer>`.
-* **Otimização**: Presença de meta tags essenciais (`viewport`, `author`, `description`) para indexação no Google.
-* **Acessibilidade**: Atributos `aria-label` em botões e `alt` em imagens.
-* **Segurança no Código**: Execução via `DOMContentLoaded` para evitar erros de elementos nulos.
+### 🌟 Technical Highlights
+
+1. **Native Internationalization (i18n)**
+   * Efficient implementation via pure JavaScript using a `translations` object.
+   * **Dynamic Switch**: `updateLanguage()` function that changes text instantly without page reloads.
+   * **State Persistence**: Controls `currentLang` to update even button labels in real-time.
+
+2. **Responsive Design & Modern Framework**
+   * **Grid System**: Strategic use of `col-md-6`, `col-md-4` for total adaptation (Mobile-First).
+   * **Smart Navbar**: Collapsible menu with custom logic to ensure "hamburger" functionality even if dependencies fail.
+
+3. **Semantic Structure & SEO**
+   * Proper use of `<header>`, `<nav>`, `<section>`, and `<footer>` tags.
+   * **Meta Tags**: Optimized via `viewport`, `author`, and `description` for Google indexing.
+   * **Accessibility**: `aria-label` attributes and alternative text (`alt`) for images.
+
+4. **JavaScript Code Quality**
+   * **Event Delegation**: Uses `DOMContentLoaded` for safe execution.
+   * **Clean Code**: Mapping via `querySelectorAll('[data-i18n]')`, making future maintenance easy.
 
 ---
 
-## 📈 Lógica de Negócios e Conversão
-O layout foi projetado estrategicamente para maximizar resultados:
-* **Call to Action (CTA)**: Botões "Comece agora" e "Assine já" em locais estratégicos.
-* **Prova Social**: Seção de estatísticas c
-* **Ancoragem de Preço**: Tabela com três níveis (Essencial, Premium, Gold), destacando a opção do meio como "Mais Popular".
-
----
-
-## 📂 Estrutura de Pastas
+## 📂 Estrutura de Pastas / Folder Structure
 
 ```text
 Monetrix/
-├── Bootstrap-essencial/    # Dependências locais do Bootstrap
+├── Bootstrap-essencial/    # Framework local dependencies
 │   ├── Css/
 │   └── JavaScript/
-├── img/                    # Ativos visuais (Imagens e Ícones)
+├── img/                    # Visual assets and icons
 ├── JavaScript/
-│   └── Script.js           # Core: i18n, Navbar toggle e Lógica DOM
+│   └── Script.js           # Core: i18n, Navbar toggle, and DOM logic
 ├── Style/
-│   └── style.css           # Estilização customizada e Overrides
-└── index.html              # Estrutura principal e SEO
+│   └── style.css           # Custom design and visual overrides
+└── index.html              # Main file with semantic structure

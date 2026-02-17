@@ -51,6 +51,11 @@ O **Monetrix** é uma landing page de alta performance que equilibra o uso de fr
 
 ---
 
+## 🛠️ Status do Desenvolvimento: Back-end
+> 🚧 **Em Construção:** Atualmente, o Monetrix é uma aplicação Front-end robusta. O desenvolvimento do Back-end está em progresso para incluir funcionalidades como autenticação de usuários, processamento de pagamentos reais e um painel administrativo.
+
+---
+
 ## 🇺🇸 About the Project
 
 **Monetrix** is a high-performance landing page that balances established frameworks with lightweight custom solutions. The result is a fast, accessible website ready to scale in both content and audience due to its native multi-language support.
@@ -81,6 +86,11 @@ O **Monetrix** é uma landing page de alta performance que equilibra o uso de fr
 4. **JavaScript Code Quality**
    * **Event Delegation**: Uses `DOMContentLoaded` for safe execution.
    * **Clean Code**: Mapping via `querySelectorAll('[data-i18n]')`, making future maintenance easy.
+  
+  ---
+
+## 🛠️ Development Status: Back-end
+> 🚧 **Under Construction:** Currently, Monetrix is a robust Front-end application. Back-end development is in progress to include features such as user authentication, real payment processing, and an administrative dashboard.
 
 ---
 

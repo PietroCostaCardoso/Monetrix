@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"   content="Pietro Costa Cardoso">
+    <meta name="description" content="Este projeto foi desenvolvido por Pietro costa cardoso">
+<!--Links-->
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Bootstrap-essencial/Css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Monetrix - Suas contas, descomplicadas</title>
+</head>
+<body>
+    <header>
+      <!--Cabeçalho-->
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-transparente">
+        <div class="container">
+          
+          <a href="#" class="navbar-brand p-0 me-2">
+            <span class="fw-bold text-white" style="font-size: 1.5rem;">Monetrix</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link" data-i18n="nav_home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#recursos" class="nav-link" data-i18n="nav_features">Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Benefícios" class="nav-link" data-i18n="nav_benefits">Benefícios</a>
+              </li>
+              <li class="nav-item">
+                <a href="#precos" class="nav-link" data-i18n="nav_pricing">Preços</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="btn btn-outline-light ms-md-4 mt-2 mt-md-0" data-i18n="nav_login">Entrar</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+    <!-- Início seção home -->
+    <section id="home" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4 fw-bold" data-i18n="hero_title">Gestão financeira simples e eficiente</h1>
+              <p class="lead mt-3" data-i18n="hero_subtitle">
+                Mais de 1 milhão de pessoas já confiam no Monetrix, a plataforma online que transforma a gestão das suas finanças em algo prático e seguro.
+              </p>
+
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <button type="button" class="btn btn-primary" data-i18n="hero_cta">Comece agora</button>
+                </div>
+              </form>
+
+              <div class="mt-4">
+                <span class="me-2" data-i18n="hero_available">Disponível para:</span>
+                <a href="" class="btn btn-light btn-sm">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-light btn-sm">
+                  <i class="fab fa-apple"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <!--/fim textos da seção -->
+          <div class="col-md-6 d-none d-md-flex align-items-center justify-content-center">
+            <img src="img/capa-mulher.png" class="img-fluid" alt="Mulher checando finanças">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--/Início seção saiba -->
+    <section class="caixa" id="recursos">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center pe-md-5">
+              <span class="badge bg-info bg-opacity-10 text-info mb-3 rounded-pill px-3 py-2" data-i18n="features_badge">INOVAÇÃO</span>
+              <h2 class="fw-bold display-5 mb-3" data-i18n="features_title">O banco digital que <span class="text-primary">cresce com você</span></h2>
+              <p class="lead mb-4" data-i18n="features_lead">Segurança e praticidade em um só lugar.</p>
+              <p class="mb-4 text-secondary" data-i18n="features_text">
+                Oferecemos soluções financeiras modernas para pessoas e empresas. Com tecnologia avançada e suporte dedicado, garantimos que seu dinheiro esteja sempre protegido e trabalhando a seu favor.
+              </p>
+              <a href="#Monetrix" class="btn btn-primary btn-lg shadow rounded-pill px-5" data-i18n="features_btn">Veja mais <i class="fas fa-arrow-right ms-2"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/Copilot_20260215_151843-removebg-preview.png" class="img-fluid" alt="Gráficos financeiros">
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <!--/Início seção juros -->
+    <section class="caixa" id="Monetrix">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/Copilot_20260215_153034-removebg-preview.png" class="img-fluid" alt="Juros e economia">
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2 class="fw-bold mb-4" data-i18n="why_title">Por que escolher o Monetrix ?</h2>
+              <ul class="list-unstyled mt-4">
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="fas fa-check-circle text-primary me-3 fa-lg"></i>
+                  <span class="fw-medium" data-i18n="why_item_1">Segurança garantida com criptografia avançada</span>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="fas fa-chart-line text-primary me-3 fa-lg"></i>
+                  <span class="fw-medium" data-i18n="why_item_2">Controle total dos seus gastos em tempo real</span>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="fas fa-headset text-primary me-3 fa-lg"></i>
+                  <span class="fw-medium" data-i18n="why_item_3">Suporte humano 24h por dia</span>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="fas fa-mobile-alt text-primary me-3 fa-lg"></i>
+                  <span class="fw-medium" data-i18n="why_item_4">Interface simples e intuitiva</span>
+                </li>
+              </ul>
+              <div class="row mt-4 mb-4 g-3">
+                <div class="col-6"><div class="p-3 border rounded-3 bg-light text-center h-100"><h3 class="fw-bold text-primary mb-1">+10k</h3><p class="text-muted small mb-0" data-i18n="why_stat_1">Clientes satisfeitos</p></div></div>
+                <div class="col-6"><div class="p-3 border rounded-3 bg-light text-center h-100"><h3 class="fw-bold text-success mb-1">30%</h3><p class="text-muted small mb-0" data-i18n="why_stat_2">Mais economia</p></div></div>
+              </div>
+              <a href="#Benefícios" class="btn btn-primary btn-lg shadow rounded-pill px-5" data-i18n="why_btn">Veja mais</a>
+            </div>
+        </div>
+      </div>
+    </section>
+     
+    <!--/Início seção recursos -->
+    <section class="caixa" id="Benefícios">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 py-4 px-3 feature-card">
+              <div class="card-body">
+                <img src="img/Copilot_20260215_215157-removebg-preview.png" class="img-fluid mb-4" alt="Fácil de usar" style="max-height: 150px;">
+                <h4 class="fw-bold mb-3" data-i18n="benefits_card1_title">Fácil de usar</h4>
+                <p class="text-muted" data-i18n="benefits_card1_text">
+                  O Monetrix vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 py-4 px-3 feature-card">
+              <div class="card-body">
+                <img src="img/Copilot_20260215_215005-removebg-preview.png" class="img-fluid mb-4" alt="Economize tempo" style="max-height: 150px;">
+                <h4 class="fw-bold mb-3" data-i18n="benefits_card2_title">Economize seu tempo</h4>
+                <p class="text-muted" data-i18n="benefits_card2_text">
+                  Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 py-4 px-3 feature-card">
+              <div class="card-body">
+                <img src="img/Copilot_20260215_215325-removebg-preview.png" class="img-fluid mb-4" alt="Suporte amigo" style="max-height: 150px;">
+                <h4 class="fw-bold mb-3" data-i18n="benefits_card3_title">Suporte amigo</h4>
+                <p class="text-muted" data-i18n="benefits_card3_text">
+                  Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Início seção preço -->
+    <section class="caixa" id="precos">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5" data-i18n="pricing_title">Escolha seu plano</h2>
+          <p class="lead text-muted" data-i18n="pricing_subtitle">Encontre a opção perfeita para o seu bolso.</p>
+        </div>
+
+        <div class="row align-items-center">
+          <!-- Conta Essencial -->
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 feature-card">
+              <div class="card-body text-center p-4">
+                <h3 class="fw-bold text-secondary mb-3" data-i18n="plan1_title">Essencial</h3>
+                <div class="mb-3">
+                  <span class="display-5 fw-bold">R$ 0,00</span>
+                  <span class="text-muted" data-i18n="pricing_month">/mês</span>
+                </div>
+                <ul class="list-unstyled mb-4 text-muted">
+                  <li class="mb-2" data-i18n="plan1_item1">Cartão de débito</li>
+                  <li class="mb-2" data-i18n="plan1_item2">Saques limitados </li>
+                  <li class="mb-2" data-i18n="plan1_item3">Transferências via PIX ilimitadas</li>
+                  <li class="mb-2 opacity-50 text-decoration-line-through" data-i18n="plan1_item4">Sem cartão de crédito</li>
+                  <li class="mb-2 opacity-50 text-decoration-line-through" data-i18n="plan1_item5">Atendimento digital</li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold" data-i18n="pricing_btn">Assine já</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conta Premium -->
+          <div class="col-md-4 mb-4">
+            <div class="card border-primary shadow h-100 feature-card">
+              <div class="card-header bg-primary text-white text-center py-2">
+                <small class="fw-bold text-uppercase" data-i18n="pricing_popular">Mais Popular</small>
+              </div>
+              <div class="card-body text-center p-5">
+                <h3 class="fw-bold text-primary mb-3" data-i18n="plan2_title">Conta Premium</h3>
+                <div class="mb-3">
+                  <span class="display-4 fw-bold">R$ 19,90</span>
+                  <span class="text-muted" data-i18n="pricing_month">/mês</span>
+                </div>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-2" data-i18n="plan2_item1">Cartão de débito e crédito</li>
+                  <li class="mb-2" data-i18n="plan2_item2">Saques ilimitados</li>
+                  <li class="mb-2" data-i18n="plan2_item3">Transferências via PIX e TED/DOC</li>
+                  <li class="mb-2" data-i18n="plan2_item4">Programa de pontos ou cashback</li>
+                  <li class="mb-2 " data-i18n="plan2_item5">Atendimento digital + suporte telefônico</li>
+                </ul>
+                <a href="#" class="btn btn-primary btn-lg rounded-pill w-100 fw-bold shadow" data-i18n="pricing_btn">Assine já</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conta Gold -->
+          <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 feature-card">
+              <div class="card-body text-center p-4">
+                <h3 class="fw-bold text-secondary mb-3" data-i18n="plan3_title"> Conta Gold</h3>
+                <div class="mb-3">
+                  <span class="display-5 fw-bold">R$ 49,90</span>
+                  <span class="text-muted" data-i18n="pricing_month">/mês</span>
+                </div>
+                <ul class="list-unstyled mb-4 text-muted">
+                  <li class="mb-2" data-i18n="plan3_item1">Cartão de débito e crédito internacional</li>
+                  <li class="mb-2" data-i18n="plan3_item2">Saques ilimitados em qualquer banco</li>
+                  <li class="mb-2" data-i18n="plan3_item3">Transferências PIX, TED/DOC ilimitadas</li>
+                  <li class="mb-2" data-i18n="plan3_item4">Programa de pontos + milhas aéreas</li>
+                  <li class="mb-2" data-i18n="plan3_item5">Atendimento prioritário (agência e digital)</li>
+                  <li class="mb-2" data-i18n="plan3_item6">Consultoria financeira personalizada</li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold" data-i18n="pricing_btn">Assine já</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-brand mb-4">
+            <h2 data-i18n="footer_brand" class="fw-bold">Monetrix</h2>
+            <p data-i18n="footer_text">Suas contas, descomplicadas.</p>
+          </div>
+
+          <div class="col-md-4 footer-links mb-4">
+            <h3 data-i18n="footer_links">Links úteis</h3>
+            <ul class="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#recursos">Recursos</a></li>
+              <li><a href="#Benefícios">Benefícios</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 footer-contact mb-4">
+            <h3 data-i18n="nav_contact">Contato</h3>
+            <p data-i18n="footer_email">Email: contato@monetrix.com.br</p>
+            <p data-i18n="footer_phone">Telefone: (11) 99999-9999</p>
+            <div class="social-icons">
+              <a href="#" class="me-2"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="#" class="me-2"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center py-3">
+        <p data-i18n="footer_copy">&copy; 2026 Monetrix</p>
+      </div>
+    </footer>
+    <button id="language-toggle" class="btn btn-primary rounded-circle shadow" aria-label="Trocar idioma">EN</button>
+    <script src="JavaScript/Script.js"></script>
+</body>
+</html>

@@ -107,3 +107,14 @@ Monetrix/
 ├── Style/
 │   └── style.css           # Custom design and visual overrides
 └── index.html              # Main file with semantic structure
+```
+## 👤 Autor
+
+Desenvolvido com dedicação por **Pietro Costa Cardoso**.  
+Se este projeto te ajudou, considere dar uma ⭐ no repositório!
+
+Link original: https://pietrocostacardoso.github.io/Monetrix/
+
+Pietro Costa Cardoso. Todos os direitos reservados sob a Licença MIT.
+
+
